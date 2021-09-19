@@ -1,0 +1,9 @@
+
+  .appLink:hover {
+    color: #17a2b8 !important;
+  }
+
+  .activeLink {
+    color: rgb(255, 0, 0) !important;
+  }
+
