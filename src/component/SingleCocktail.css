@@ -1,0 +1,160 @@
+
+/* @import "bourbon"; */
+
+* {
+    box-sizing:border-box;
+}
+
+html {
+    background: #FAF7F2;
+    background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    -moz-box-orient:-45deg, #19d3d1 5%, #57abf2, fallback, #57abf2;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1rem;
+   background-color: #fff;
+   box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1), 0 0 100px 3px rgba(0, 0, 0, .25);
+   height: 1px;
+   margin: -1px auto 0;
+   width: 80%;
+   z-index: -1;
+}
+
+img {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-self: center;
+}
+
+.recipe-card {
+    margin: 25px auto 0;
+    position: relative;
+    width: 692px;
+    
+}
+
+   aside {
+       position: relative;
+   }
+       img {
+           border-end-end-radius: 5px;
+       }
+
+       .button {
+           background: #57abf2;
+           display: inline-block;
+           position: absolute;
+           top: 80%;
+           right: 3%;
+           width: em(65);
+           height: em(65);
+           border-radius: em(65);
+           line-height: em(65);
+           text-align: center;
+       }
+           .icon {
+               vertical-align: middle;
+           }
+       
+   
+
+   article {
+       padding: 1.25em 1.5em;
+   }    
+       ul {
+           list-style: none;
+           margin : 0.5em 0 0;
+           padding : 0;
+       }
+           li {
+               display: inline-block;
+               margin-left: 1em;
+               line-height: 1em;
+           }
+
+               .icon {
+                   vertical-align: bottom;
+               }
+
+               span:nth-of-type(2) {
+                   margin-left: 0.5em;
+                   font-size: 0.8em;
+                   font-weight: 300;
+                   vertical-align: middle;
+                   color: #838689;
+               }
+       
+       
+   
+     
+
+       h2 {
+        font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: 10px 0;
+       }
+
+       h3 ,p {
+        display: inline-block;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 10px 0;
+       }
+
+      
+           span {
+               font-weight: 700;
+               color: #000000;
+           }
+       
+
+       .ingredients {
+           margin: 2em 0 0.5em;
+       }
+   
+
+   .icon {
+       display: inline;
+       display: inline-block;
+       background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/203277/recipe-card-icons.svg);
+       background-repeat: no-repeat;
+   }
+
+   .icon-calories,.icon-calories\:regular {
+       background-position: 0 0;
+       width: 16px;
+       height: 19px;
+   }
+
+   .icon-clock,.icon-clock\:regular {
+       background-position: 0 -19px;
+       width: 20px;
+       height: 20px;
+   }
+
+   .icon-level,.icon-level\:regular {
+       background-position: 0 -39px;
+       width: 16px;
+       height: 19px;
+   }
+
+   .icon-play,.icon-play\:regular {
+       background-position: 0 -58px;
+       width: 21px;
+       height: 26px;
+   }
+
+   .icon-users,.icon-users\:regular {
+       background-position: 0 -84px;
+       width: 18px;
+       height: 18px;
+   }

@@ -19,7 +19,7 @@ const Cocktails = ({ cocktail }) => {
 
             <Link
               className="btn btn-primary btn-details"
-              to={`/Home/Try/${cocktail.idDrink}`}
+              to={`/Home/Cocktail/${cocktail.idDrink}`}
             >
               Details
             </Link>

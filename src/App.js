@@ -4,7 +4,7 @@ import Navbar from "./component/Navbar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Login from "./Pages/Login";
-import SingleCocktail from "./Pages/SingleCocktail";
+import SingleCocktail from "./component/SingleCocktail";
 function App() {
   return (
     <div className="App">
@@ -13,9 +13,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Login" component={Login} />
-        <Route exact path="/cocktail/:id">
-          <SingleCocktail />
-        </Route>
+        <Route path="/Home/Cocktail/:id" component={SingleCocktail} />
 
         <Route path="/*" component={Error} />
       </Switch>
