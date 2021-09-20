@@ -95,7 +95,7 @@ html {
     font-weight: 700;
     letter-spacing: 6px;
     margin: 5px 0 20px;
-    /* position: relative; */
+   
     text-align: right;
     text-transform: uppercase;
   }
@@ -111,8 +111,8 @@ html {
   }
   
   .card-tag {
-    float: right;
-    margin: 5px 0 0;
+    float:inline-start;
+    margin: 5px;
   }
   
   .card-media {

@@ -7,7 +7,7 @@
 
 html {
     background: #FAF7F2;
-    background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+    
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -15,6 +15,7 @@ html {
 }
 
 body {
+   
     -moz-box-orient:-45deg, #19d3d1 5%, #57abf2, fallback, #57abf2;
    font-family: 'Open Sans', sans-serif;
    font-size: 1rem;
@@ -27,10 +28,11 @@ body {
 }
 
 img {
+    border-radius: 30px;
     width: 100%;
     display: flex;
     align-content: center;
-    align-self: center;
+   
 }
 
 .recipe-card {
@@ -43,10 +45,7 @@ img {
    aside {
        position: relative;
    }
-       img {
-           border-end-end-radius: 5px;
-       }
-
+      
        .button {
            background: #57abf2;
            display: inline-block;

@@ -60,7 +60,12 @@ const SingleCocktail = ({
           </p>
         </article>
       </div>
-      <button onClick={() => history.goBack()}>Go bacK</button>
+      <button
+        className=" btn btn-primary btn-details"
+        onClick={() => history.goBack()}
+      >
+        Go bacK
+      </button>
     </div>
   );
 };
