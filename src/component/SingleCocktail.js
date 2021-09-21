@@ -64,7 +64,7 @@ const SingleCocktail = ({
         className=" btn btn-primary btn-details"
         onClick={() => history.goBack()}
       >
-        Go bacK
+        Return
       </button>
     </div>
   );
